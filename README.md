@@ -57,7 +57,7 @@ reload bot!
  cd ..
  
  #Launch BOT!
- git clone https://github.com/Mrhalix/lua-pmrsn
+ git clone https://github.com/allwenwaker/lua-pmrsn
  cd lua-pmrsn
  chmod +x ./launch.sh
  ./launch.sh
