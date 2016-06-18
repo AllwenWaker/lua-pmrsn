@@ -4,10 +4,7 @@ package.cpath = package.cpath .. ';.luarocks/lib/lua/5.2/?.so'
 URL = require('socket.url')
 JSON = require('dkjson')
 HTTPS = require('ssl.https')
-redis_server = require('redis') --https://github.com/nrk/redis-lua
-redis = redis_server.connect('127.0.0.1', 6379)
-----config----
-local bot_api_key = "141838535:AAGbkXnhzRaUxarMQHmXqOZspFNS5S7nhpE" --Your telegram bot api key
+redis_server = require('redis') "" --Your telegram bot api key
 local BASE_URL = "https://api.telegram.org/bot"..bot_api_key
 local BASE_FOLDER = ""
 local start = [[/setdn `<done msg>`
